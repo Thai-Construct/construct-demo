@@ -20,4 +20,9 @@ public class MainActivity extends AppCompatActivity {
     public boolean onSearchRequested() {
         return super.onSearchRequested();
     }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
 }
